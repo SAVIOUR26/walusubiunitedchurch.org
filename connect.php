@@ -37,7 +37,7 @@ $groups = [
     <h1>Connect With Us</h1>
     <p>Find your place in our church family</p>
     <div class="breadcrumb">
-      <a href="index.php">Home</a> <span>/</span> <span>Connect</span>
+      <a href="/">Home</a> <span>/</span> <span>Connect</span>
     </div>
   </div>
 </div>
@@ -53,7 +53,7 @@ $groups = [
         <p>Taking your first step is easy. Join us on Sunday, introduce yourself to our Welcome Team, and let us help you find your place in this community. You are not just a visitor — you are family.</p>
         <div style="display:flex;gap:12px;margin-top:24px;flex-wrap:wrap;">
           <a href="#connect-form" class="btn btn-primary">Connect Today</a>
-          <a href="contact.php" class="btn btn-outline">Visit Us Sunday</a>
+          <a href="/contact" class="btn btn-outline">Visit Us Sunday</a>
         </div>
       </div>
       <div class="welcome-img">
@@ -139,7 +139,7 @@ $groups = [
     </div>
     <?php endif; ?>
 
-    <form method="POST" action="connect.php#connect-form" novalidate>
+    <form method="POST" action="/connect#connect-form" novalidate>
       <div class="form-group">
         <label for="connect_type">I want to: <span class="required">*</span></label>
         <select id="connect_type" name="connect_type" required>

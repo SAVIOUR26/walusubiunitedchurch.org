@@ -23,7 +23,7 @@ $images = [
     <h1>Photo &amp; Video Gallery</h1>
     <p>Moments of God's faithfulness captured in time</p>
     <div class="breadcrumb">
-      <a href="index.php">Home</a> <span>/</span> <span>Gallery</span>
+      <a href="/">Home</a> <span>/</span> <span>Gallery</span>
     </div>
   </div>
 </div>

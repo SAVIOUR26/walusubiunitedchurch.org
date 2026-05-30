@@ -29,7 +29,7 @@ $type_labels = [
     <h1>Upcoming Events</h1>
     <p>Mark your calendar and join us for what God has planned</p>
     <div class="breadcrumb">
-      <a href="index.php">Home</a> <span>/</span> <span>Events</span>
+      <a href="/">Home</a> <span>/</span> <span>Events</span>
     </div>
   </div>
 </div>
@@ -63,7 +63,7 @@ $type_labels = [
           </div>
         </div>
         <div style="flex-shrink:0;">
-          <a href="contact.php" class="btn btn-outline btn-sm">Register</a>
+          <a href="/contact" class="btn btn-outline btn-sm">Register</a>
         </div>
       </div>
       <?php endforeach; ?>

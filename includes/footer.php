@@ -18,21 +18,21 @@
       </div>
       <div class="footer-col">
         <h4>Quick Links</h4>
-        <a href="index.php">Home</a>
-        <a href="about.php">About Us</a>
-        <a href="ministries.php">Ministries</a>
-        <a href="sermons.php">Sermons</a>
-        <a href="events.php">Events</a>
-        <a href="gallery.php">Gallery</a>
-        <a href="blog.php">Blog</a>
+        <a href="/">Home</a>
+        <a href="/about">About Us</a>
+        <a href="/ministries">Ministries</a>
+        <a href="/sermons">Sermons</a>
+        <a href="/events">Events</a>
+        <a href="/gallery">Gallery</a>
+        <a href="/blog">Blog</a>
       </div>
       <div class="footer-col">
         <h4>Connect</h4>
-        <a href="prayer.php">Prayer Request</a>
-        <a href="give.php">Give / Donate</a>
-        <a href="livestream.php">Live Stream</a>
-        <a href="connect.php">Membership</a>
-        <a href="contact.php">Contact Us</a>
+        <a href="/prayer">Prayer Request</a>
+        <a href="/give">Give / Donate</a>
+        <a href="/livestream">Live Stream</a>
+        <a href="/connect">Membership</a>
+        <a href="/contact">Contact Us</a>
       </div>
       <div class="footer-col">
         <h4>Service Times</h4>

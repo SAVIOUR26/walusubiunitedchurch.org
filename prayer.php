@@ -32,7 +32,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <h1>Prayer Request</h1>
     <p>Bring your burden to God — we will pray with you</p>
     <div class="breadcrumb">
-      <a href="index.php">Home</a> <span>/</span> <span>Prayer</span>
+      <a href="/">Home</a> <span>/</span> <span>Prayer</span>
     </div>
   </div>
 </div>
@@ -93,7 +93,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
           <i class="fas fa-lock"></i> Your prayer request is safe with us. Any information marked "Confidential" will only be seen by our prayer team.
         </div>
 
-        <form method="POST" action="prayer.php" novalidate>
+        <form method="POST" action="/prayer" novalidate>
           <div class="form-row">
             <div class="form-group">
               <label for="name">Full Name <span class="required">*</span></label>

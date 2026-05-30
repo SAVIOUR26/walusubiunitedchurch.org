@@ -21,7 +21,7 @@ $ministries = [
     <h1>Our Ministries</h1>
     <p>Nine active ministries — one Kingdom purpose</p>
     <div class="breadcrumb">
-      <a href="index.php">Home</a> <span>/</span> <span>Ministries</span>
+      <a href="/">Home</a> <span>/</span> <span>Ministries</span>
     </div>
   </div>
 </div>
@@ -39,7 +39,7 @@ $ministries = [
         <div class="ministry-icon"><?= $m['icon'] ?></div>
         <h3><?= htmlspecialchars($m['name']) ?></h3>
         <p><?= htmlspecialchars($m['desc']) ?></p>
-        <a href="connect.php" class="btn btn-outline btn-sm">Join This Ministry</a>
+        <a href="/connect" class="btn btn-outline btn-sm">Join This Ministry</a>
       </div>
       <?php endforeach; ?>
     </div>
@@ -53,8 +53,8 @@ $ministries = [
     <h2 style="color:var(--white);font-size:2.2rem;margin:12px 0;">Ready to Get Involved?</h2>
     <p style="color:rgba(255,255,255,0.8);max-width:600px;margin:0 auto 32px;">Every gift, talent and calling has a place in the body of Christ. Take the next step and connect with a ministry today.</p>
     <div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap;">
-      <a href="connect.php" class="btn btn-primary btn-lg">Join a Ministry</a>
-      <a href="contact.php" class="btn btn-secondary btn-lg">Ask a Question</a>
+      <a href="/connect" class="btn btn-primary btn-lg">Join a Ministry</a>
+      <a href="/contact" class="btn btn-secondary btn-lg">Ask a Question</a>
     </div>
   </div>
 </section>

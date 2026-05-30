@@ -9,7 +9,7 @@ require_once 'includes/header.php';
     <h1>Give &amp; Support</h1>
     <p>Partnering with us to advance God's Kingdom</p>
     <div class="breadcrumb">
-      <a href="index.php">Home</a> <span>/</span> <span>Give</span>
+      <a href="/">Home</a> <span>/</span> <span>Give</span>
     </div>
   </div>
 </div>
@@ -99,7 +99,7 @@ require_once 'includes/header.php';
           <li style="margin-bottom:8px;">✓ Monthly partner prayer</li>
           <li>✓ Annual partner dinner</li>
         </ul>
-        <a href="contact.php" class="btn btn-outline btn-sm">Become a Partner</a>
+        <a href="/contact" class="btn btn-outline btn-sm">Become a Partner</a>
       </div>
       <div class="tier-card featured">
         <h3>Kingdom Builder</h3>
@@ -111,7 +111,7 @@ require_once 'includes/header.php';
           <li style="margin-bottom:8px;">✓ VIP event invitations</li>
           <li>✓ Special recognition</li>
         </ul>
-        <a href="contact.php" class="btn btn-primary btn-sm" style="background:var(--gold);border-color:var(--gold);">Become a Partner</a>
+        <a href="/contact" class="btn btn-primary btn-sm" style="background:var(--gold);border-color:var(--gold);">Become a Partner</a>
       </div>
       <div class="tier-card">
         <h3>Vision Sponsor</h3>
@@ -123,7 +123,7 @@ require_once 'includes/header.php';
           <li style="margin-bottom:8px;">✓ Board advisory access</li>
           <li>✓ Annual stewardship report</li>
         </ul>
-        <a href="contact.php" class="btn btn-outline btn-sm">Become a Sponsor</a>
+        <a href="/contact" class="btn btn-outline btn-sm">Become a Sponsor</a>
       </div>
     </div>
   </div>

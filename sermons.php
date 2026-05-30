@@ -18,7 +18,7 @@ $sermons = [
     <h1>Sermons &amp; Teachings</h1>
     <p>Be fed by the living Word of God</p>
     <div class="breadcrumb">
-      <a href="index.php">Home</a> <span>/</span> <span>Sermons</span>
+      <a href="/">Home</a> <span>/</span> <span>Sermons</span>
     </div>
   </div>
 </div>
@@ -41,7 +41,7 @@ $sermons = [
           <span><i class="fas fa-clock"></i> 58 min</span>
         </div>
         <div style="display:flex;gap:10px;flex-wrap:wrap;">
-          <a href="livestream.php" class="btn btn-primary btn-sm">Watch Live</a>
+          <a href="/livestream" class="btn btn-primary btn-sm">Watch Live</a>
           <a href="<?= YOUTUBE_URL ?>" target="_blank" rel="noopener" class="btn btn-secondary btn-sm" style="background:rgba(255,255,255,0.15);border-color:rgba(255,255,255,0.4);">
             <i class="fab fa-youtube"></i> YouTube
           </a>
@@ -77,7 +77,7 @@ $sermons = [
           <div class="sermon-meta">
             <span><i class="fas fa-calendar"></i> <?= $s['date'] ?></span>
           </div>
-          <a href="livestream.php" class="btn btn-outline btn-sm" style="margin-top:12px;">Watch Now</a>
+          <a href="/livestream" class="btn btn-outline btn-sm" style="margin-top:12px;">Watch Now</a>
         </div>
       </div>
       <?php endforeach; ?>

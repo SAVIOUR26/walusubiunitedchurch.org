@@ -15,8 +15,8 @@ require_once 'includes/header.php';
       <span>— 1 Corinthians 1:10</span>
     </p>
     <div class="hero-btns">
-      <a href="connect.php" class="btn btn-primary btn-lg">Join Us</a>
-      <a href="sermons.php" class="btn btn-secondary btn-lg">Watch Sermons</a>
+      <a href="/connect" class="btn btn-primary btn-lg">Join Us</a>
+      <a href="/sermons" class="btn btn-secondary btn-lg">Watch Sermons</a>
     </div>
   </div>
   <div class="hero-scroll">
@@ -46,7 +46,7 @@ require_once 'includes/header.php';
             <span>Senior Pastor, Walusubi United Church</span>
           </div>
         </div>
-        <a href="about.php" class="btn btn-outline" style="margin-top:24px;">Learn More About Us</a>
+        <a href="/about" class="btn btn-outline" style="margin-top:24px;">Learn More About Us</a>
       </div>
     </div>
   </div>
@@ -146,7 +146,7 @@ require_once 'includes/header.php';
             <span><i class="fas fa-user"></i> Pastor Bogere Geofrey</span>
             <span><i class="fas fa-calendar"></i> May 25, 2025</span>
           </div>
-          <a href="sermons.php" class="btn btn-outline btn-sm" style="margin-top:12px;">Listen Now</a>
+          <a href="/sermons" class="btn btn-outline btn-sm" style="margin-top:12px;">Listen Now</a>
         </div>
       </div>
       <div class="sermon-card card">
@@ -161,7 +161,7 @@ require_once 'includes/header.php';
             <span><i class="fas fa-user"></i> Pastor Bogere Geofrey</span>
             <span><i class="fas fa-calendar"></i> May 21, 2025</span>
           </div>
-          <a href="sermons.php" class="btn btn-outline btn-sm" style="margin-top:12px;">Listen Now</a>
+          <a href="/sermons" class="btn btn-outline btn-sm" style="margin-top:12px;">Listen Now</a>
         </div>
       </div>
       <div class="sermon-card card">
@@ -176,12 +176,12 @@ require_once 'includes/header.php';
             <span><i class="fas fa-user"></i> Pastor Bogere Geofrey</span>
             <span><i class="fas fa-calendar"></i> May 18, 2025</span>
           </div>
-          <a href="sermons.php" class="btn btn-outline btn-sm" style="margin-top:12px;">Listen Now</a>
+          <a href="/sermons" class="btn btn-outline btn-sm" style="margin-top:12px;">Listen Now</a>
         </div>
       </div>
     </div>
     <div style="text-align:center;margin-top:40px;">
-      <a href="sermons.php" class="btn btn-primary">View All Sermons</a>
+      <a href="/sermons" class="btn btn-primary">View All Sermons</a>
     </div>
   </div>
 </section>
@@ -241,7 +241,7 @@ require_once 'includes/header.php';
       </div>
     </div>
     <div style="text-align:center;margin-top:36px;">
-      <a href="events.php" class="btn btn-primary">View All Events</a>
+      <a href="/events" class="btn btn-primary">View All Events</a>
     </div>
   </div>
 </section>
@@ -342,22 +342,22 @@ require_once 'includes/header.php';
       <p>We are here to serve you in every season of life.</p>
     </div>
     <div class="grid-4">
-      <a href="prayer.php" class="quick-link">
+      <a href="/prayer" class="quick-link">
         <span class="icon">🙏</span>
         <h3>Prayer Request</h3>
         <p style="color:var(--text-medium);font-size:0.85rem;margin-top:6px;">Submit a confidential prayer request</p>
       </a>
-      <a href="give.php" class="quick-link">
+      <a href="/give" class="quick-link">
         <span class="icon">💝</span>
         <h3>Give Online</h3>
         <p style="color:var(--text-medium);font-size:0.85rem;margin-top:6px;">Partner with us in Kingdom work</p>
       </a>
-      <a href="gallery.php" class="quick-link">
+      <a href="/gallery" class="quick-link">
         <span class="icon">📸</span>
         <h3>Photo Gallery</h3>
         <p style="color:var(--text-medium);font-size:0.85rem;margin-top:6px;">See life at Walusubi Church</p>
       </a>
-      <a href="contact.php" class="quick-link">
+      <a href="/contact" class="quick-link">
         <span class="icon">📞</span>
         <h3>Contact Us</h3>
         <p style="color:var(--text-medium);font-size:0.85rem;margin-top:6px;">We'd love to hear from you</p>

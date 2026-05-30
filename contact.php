@@ -32,7 +32,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <h1>Contact Us</h1>
     <p>We'd love to hear from you</p>
     <div class="breadcrumb">
-      <a href="index.php">Home</a> <span>/</span> <span>Contact</span>
+      <a href="/">Home</a> <span>/</span> <span>Contact</span>
     </div>
   </div>
 </div>
@@ -104,7 +104,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <?php endif; ?>
 
         <h2 style="margin-bottom:28px;">Send Us a Message</h2>
-        <form method="POST" action="contact.php" novalidate>
+        <form method="POST" action="/contact" novalidate>
           <div class="form-row">
             <div class="form-group">
               <label for="name">Your Name <span class="required">*</span></label>
