@@ -62,7 +62,7 @@ require_once 'includes/header.php';
         <div class="giving-detail"><span>Receiver Name</span><strong>BOGERE GEOFREY</strong></div>
         <div class="giving-detail"><span>Country</span><strong>Uganda</strong></div>
         <div class="giving-detail"><span>City</span><strong>Mukono</strong></div>
-        <div class="giving-detail"><span>Phone (for pickup)</span><strong>+256 782 134374</strong></div>
+        <div class="giving-detail"><span>Phone (for pickup)</span><strong>+256 744 521840</strong></div>
         <div class="giving-detail"><span>ID Type</span><strong>National ID / Passport</strong></div>
         <p style="font-size:0.82rem;color:var(--text-light);margin-top:12px;">Once sent, share the MTCN / Reference Number with us via WhatsApp or email so we can collect promptly.</p>
         <a href="https://wa.me/256744521840?text=I%20have%20sent%20a%20Western%20Union%20transfer" class="btn btn-outline btn-sm" style="margin-top:16px;">
