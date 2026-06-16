@@ -163,7 +163,7 @@ $groups = [
       </div>
       <div class="form-group">
         <label for="phone">Phone Number</label>
-        <input type="tel" id="phone" name="phone" placeholder="+256 700 000 000">
+        <input type="tel" id="phone" name="phone" placeholder="+256 782 134374">
       </div>
       <div class="form-group">
         <label for="message">Anything else you'd like us to know?</label>

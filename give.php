@@ -45,35 +45,42 @@ require_once 'includes/header.php';
     <div class="grid-3">
       <!-- Mobile Money -->
       <div class="giving-method">
-        <h3><span class="icon">📱</span> Mobile Money</h3>
-        <p style="color:var(--text-medium);font-size:0.9rem;margin-bottom:16px;">Send via MTN or Airtel Money instantly.</p>
-        <div class="giving-detail"><span>MTN Mobile Money</span><strong>+256 700 000 000</strong></div>
-        <div class="giving-detail"><span>Airtel Money</span><strong>+256 750 000 000</strong></div>
-        <div class="giving-detail"><span>Account Name</span><strong>Walusubi United Church</strong></div>
-        <p style="font-size:0.82rem;color:var(--text-light);margin-top:12px;">Send via M-Pesa/MTN/Airtel and SMS confirmation to church admin.</p>
-      </div>
-      <!-- Bank Transfer -->
-      <div class="giving-method">
-        <h3><span class="icon">🏦</span> Bank Transfer</h3>
-        <p style="color:var(--text-medium);font-size:0.9rem;margin-bottom:16px;">Transfer directly to our church bank account.</p>
-        <div class="giving-detail"><span>Bank Name</span><strong>Stanbic Bank Uganda</strong></div>
-        <div class="giving-detail"><span>Account Name</span><strong>Walusubi United Church</strong></div>
-        <div class="giving-detail"><span>Account Number</span><strong>9030005678912</strong></div>
-        <div class="giving-detail"><span>Branch</span><strong>Mukono Branch</strong></div>
-        <div class="giving-detail"><span>Swift Code</span><strong>SBICUGKX</strong></div>
-      </div>
-      <!-- Online -->
-      <div class="giving-method" style="text-align:center;">
-        <h3><span class="icon">💳</span> Online Giving</h3>
-        <p style="color:var(--text-medium);font-size:0.9rem;margin-bottom:24px;">Give securely online using PayPal or card payment.</p>
-        <a href="#" class="btn btn-primary btn-lg" style="margin-bottom:16px;">
-          <i class="fab fa-paypal"></i> Give via PayPal
+        <h3><span class="icon">📱</span> Mobile Money (Uganda)</h3>
+        <p style="color:var(--text-medium);font-size:0.9rem;margin-bottom:16px;">Send via MTN or Airtel Money to Pastor Bogere's ministry number.</p>
+        <div class="giving-detail"><span>MTN Mobile Money</span><strong>+256 782 134374</strong></div>
+        <div class="giving-detail"><span>Airtel Money</span><strong>+256 744 521840</strong></div>
+        <div class="giving-detail"><span>Account Name</span><strong>Bogere Geofrey</strong></div>
+        <p style="font-size:0.82rem;color:var(--text-light);margin-top:12px;">After sending, please SMS or WhatsApp us the confirmation so we can acknowledge your gift.</p>
+        <a href="https://wa.me/256744521840?text=I%20have%20sent%20a%20mobile%20money%20offering" class="btn btn-outline btn-sm" style="margin-top:16px;">
+          <i class="fab fa-whatsapp"></i> Confirm via WhatsApp
         </a>
-        <p style="font-size:0.8rem;color:var(--text-light);">Secure payment powered by PayPal. All major cards accepted.</p>
-        <div style="margin-top:24px;padding-top:24px;border-top:1px solid var(--mid-gray);">
-          <p style="font-size:0.85rem;margin-bottom:8px;font-weight:600;">WhatsApp Giving</p>
-          <a href="https://wa.me/<?= WHATSAPP_NUMBER ?>?text=I%20want%20to%20give%20to%20the%20church" class="btn btn-outline btn-sm">
-            <i class="fab fa-whatsapp"></i> Give via WhatsApp
+      </div>
+      <!-- Western Union -->
+      <div class="giving-method">
+        <h3><span class="icon">🌍</span> Western Union / MoneyGram</h3>
+        <p style="color:var(--text-medium);font-size:0.9rem;margin-bottom:16px;">Send internationally to Pastor Bogere Geofrey using the details below.</p>
+        <div class="giving-detail"><span>Receiver Name</span><strong>BOGERE GEOFREY</strong></div>
+        <div class="giving-detail"><span>Country</span><strong>Uganda</strong></div>
+        <div class="giving-detail"><span>City</span><strong>Mukono</strong></div>
+        <div class="giving-detail"><span>Phone (for pickup)</span><strong>+256 782 134374</strong></div>
+        <div class="giving-detail"><span>ID Type</span><strong>National ID / Passport</strong></div>
+        <p style="font-size:0.82rem;color:var(--text-light);margin-top:12px;">Once sent, share the MTCN / Reference Number with us via WhatsApp or email so we can collect promptly.</p>
+        <a href="https://wa.me/256744521840?text=I%20have%20sent%20a%20Western%20Union%20transfer" class="btn btn-outline btn-sm" style="margin-top:16px;">
+          <i class="fab fa-whatsapp"></i> Send MTCN via WhatsApp
+        </a>
+      </div>
+      <!-- WhatsApp / Online -->
+      <div class="giving-method" style="text-align:center;">
+        <h3><span class="icon">💬</span> Give via WhatsApp</h3>
+        <p style="color:var(--text-medium);font-size:0.9rem;margin-bottom:24px;">Chat with us directly on WhatsApp to arrange your gift or get assistance with any giving method.</p>
+        <a href="https://wa.me/256744521840?text=I%20want%20to%20give%20to%20Walusubi%20United%20Church" class="btn btn-primary btn-lg" style="margin-bottom:16px;background:#25d366;border-color:#25d366;">
+          <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+        </a>
+        <p style="font-size:0.82rem;color:var(--text-light);">+256 744 521840 &nbsp;|&nbsp; Available daily</p>
+        <div style="margin-top:28px;padding-top:24px;border-top:1px solid var(--mid-gray);">
+          <p style="font-size:0.88rem;font-weight:600;color:var(--text-dark);margin-bottom:8px;">Questions about giving?</p>
+          <a href="mailto:<?= SITE_EMAIL ?>" class="btn btn-outline btn-sm">
+            <i class="fas fa-envelope"></i> Email Us
           </a>
         </div>
       </div>

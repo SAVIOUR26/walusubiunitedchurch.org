@@ -106,7 +106,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
           </div>
           <div class="form-group">
             <label for="phone">Phone Number <span style="color:var(--text-light);font-weight:400;">(optional)</span></label>
-            <input type="tel" id="phone" name="phone" placeholder="+256 700 000 000" value="<?= isset($phone) ? htmlspecialchars($phone) : '' ?>">
+            <input type="tel" id="phone" name="phone" placeholder="+256 782 134374" value="<?= isset($phone) ? htmlspecialchars($phone) : '' ?>">
           </div>
           <div class="form-group">
             <label for="request">Your Prayer Request <span class="required">*</span></label>
