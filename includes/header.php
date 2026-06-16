@@ -1,6 +1,6 @@
 <?php
 require_once __DIR__ . '/config.php';
-$current = basename($_SERVER['PHP_SELF']);
+$current = pathinfo(basename($_SERVER['PHP_SELF']), PATHINFO_FILENAME); // e.g. "about"
 function nav_class($page) {
     global $current;
     return ($current === $page) ? 'active' : '';
@@ -45,22 +45,22 @@ $page_desc  = isset($page_desc) ? $page_desc : 'Walusubi United Church of Jesus 
 <!-- Navbar -->
 <nav id="navbar">
   <div class="nav-inner">
-    <a href="index.php" class="nav-logo">
+    <a href="/" class="nav-logo">
       <img src="assets/images/logo.png" alt="<?= SITE_NAME ?> Logo">
       <span>Walusubi United Church</span>
     </a>
     <div class="nav-links">
-      <a href="index.php" class="<?= nav_class('index.php') ?>">Home</a>
-      <a href="about.php" class="<?= nav_class('about.php') ?>">About</a>
-      <a href="ministries.php" class="<?= nav_class('ministries.php') ?>">Ministries</a>
-      <a href="sermons.php" class="<?= nav_class('sermons.php') ?>">Sermons</a>
-      <a href="events.php" class="<?= nav_class('events.php') ?>">Events</a>
-      <a href="gallery.php" class="<?= nav_class('gallery.php') ?>">Gallery</a>
-      <a href="blog.php" class="<?= nav_class('blog.php') ?>">Blog</a>
-      <a href="contact.php" class="<?= nav_class('contact.php') ?>">Contact</a>
+      <a href="/" class="<?= nav_class('index') ?>">Home</a>
+      <a href="/about" class="<?= nav_class('about') ?>">About</a>
+      <a href="/ministries" class="<?= nav_class('ministries') ?>">Ministries</a>
+      <a href="/sermons" class="<?= nav_class('sermons') ?>">Sermons</a>
+      <a href="/events" class="<?= nav_class('events') ?>">Events</a>
+      <a href="/gallery" class="<?= nav_class('gallery') ?>">Gallery</a>
+      <a href="/blog" class="<?= nav_class('blog') ?>">Blog</a>
+      <a href="/contact" class="<?= nav_class('contact') ?>">Contact</a>
     </div>
     <div style="display:flex;align-items:center;gap:12px;">
-      <a href="give.php" class="btn btn-primary btn-sm nav-cta">Give Online</a>
+      <a href="/give" class="btn btn-primary btn-sm nav-cta">Give Online</a>
       <div class="hamburger" id="hamburger" aria-label="Menu" role="button" tabindex="0">
         <span></span><span></span><span></span>
       </div>
@@ -71,16 +71,16 @@ $page_desc  = isset($page_desc) ? $page_desc : 'Walusubi United Church of Jesus 
 <!-- Mobile Menu -->
 <div class="mobile-menu" id="mobile-menu" role="navigation" aria-label="Mobile navigation">
   <span class="mobile-close" id="mobile-close" aria-label="Close menu">&times;</span>
-  <a href="index.php" class="<?= nav_class('index.php') ?>">Home</a>
-  <a href="about.php" class="<?= nav_class('about.php') ?>">About</a>
-  <a href="ministries.php" class="<?= nav_class('ministries.php') ?>">Ministries</a>
-  <a href="sermons.php" class="<?= nav_class('sermons.php') ?>">Sermons</a>
-  <a href="events.php" class="<?= nav_class('events.php') ?>">Events</a>
-  <a href="gallery.php" class="<?= nav_class('gallery.php') ?>">Gallery</a>
-  <a href="blog.php" class="<?= nav_class('blog.php') ?>">Blog</a>
-  <a href="prayer.php" class="<?= nav_class('prayer.php') ?>">Prayer</a>
-  <a href="give.php" class="<?= nav_class('give.php') ?>">Give</a>
-  <a href="livestream.php" class="<?= nav_class('livestream.php') ?>">Live Stream</a>
-  <a href="connect.php" class="<?= nav_class('connect.php') ?>">Connect</a>
-  <a href="contact.php" class="<?= nav_class('contact.php') ?>">Contact</a>
+  <a href="/" class="<?= nav_class('index') ?>">Home</a>
+  <a href="/about" class="<?= nav_class('about') ?>">About</a>
+  <a href="/ministries" class="<?= nav_class('ministries') ?>">Ministries</a>
+  <a href="/sermons" class="<?= nav_class('sermons') ?>">Sermons</a>
+  <a href="/events" class="<?= nav_class('events') ?>">Events</a>
+  <a href="/gallery" class="<?= nav_class('gallery') ?>">Gallery</a>
+  <a href="/blog" class="<?= nav_class('blog') ?>">Blog</a>
+  <a href="/prayer" class="<?= nav_class('prayer') ?>">Prayer</a>
+  <a href="/give" class="<?= nav_class('give') ?>">Give</a>
+  <a href="/livestream" class="<?= nav_class('livestream') ?>">Live Stream</a>
+  <a href="/connect" class="<?= nav_class('connect') ?>">Connect</a>
+  <a href="/contact" class="<?= nav_class('contact') ?>">Contact</a>
 </div>

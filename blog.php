@@ -18,7 +18,7 @@ $posts = [
     <h1>Blog &amp; News</h1>
     <p>Devotionals, announcements and stories of God's faithfulness</p>
     <div class="breadcrumb">
-      <a href="index.php">Home</a> <span>/</span> <span>Blog</span>
+      <a href="/">Home</a> <span>/</span> <span>Blog</span>
     </div>
   </div>
 </div>

@@ -9,7 +9,7 @@ require_once 'includes/header.php';
     <h1>About Our Church</h1>
     <p>Our story, our vision, and the people who lead us</p>
     <div class="breadcrumb">
-      <a href="index.php">Home</a> <span>/</span> <span>About</span>
+      <a href="/">Home</a> <span>/</span> <span>About</span>
     </div>
   </div>
 </div>
@@ -28,8 +28,8 @@ require_once 'includes/header.php';
         <p>What started as a handful of committed families has grown into a vibrant congregation of hundreds, with active ministries touching every age group and sector of society. Through prayers, tears, sacrifices and faithful stewardship, God has built His church here.</p>
         <p>Today, Walusubi United Church stands as a beacon of hope, a house of healing, and a center of transformation in Walusubi, Mukono District. We are still growing, still believing, and still advancing the Kingdom of God.</p>
         <div style="margin-top:24px;display:flex;gap:12px;flex-wrap:wrap;">
-          <a href="ministries.php" class="btn btn-primary">Our Ministries</a>
-          <a href="contact.php" class="btn btn-outline">Visit Us</a>
+          <a href="/ministries" class="btn btn-primary">Our Ministries</a>
+          <a href="/contact" class="btn btn-outline">Visit Us</a>
         </div>
       </div>
     </div>
@@ -73,8 +73,8 @@ require_once 'includes/header.php';
         <p>Pastor Bogere Geofrey is a passionate man of God called to preach the Gospel and build people into their God-given destiny. With a heart for the lost and a gift for teaching, he leads the congregation with humility, wisdom and a deep love for the Word of God.</p>
         <p style="margin-top:12px;">Under his leadership, Walusubi United Church has grown significantly, impacting thousands of lives through preaching, discipleship, community service and evangelistic outreaches across Uganda. He is a visionary leader who believes that every member of the body of Christ has a role to play in advancing the Kingdom.</p>
         <div style="display:flex;gap:12px;margin-top:20px;flex-wrap:wrap;">
-          <a href="contact.php" class="btn btn-primary btn-sm">Connect with Pastor</a>
-          <a href="sermons.php" class="btn btn-outline btn-sm">Watch His Sermons</a>
+          <a href="/contact" class="btn btn-primary btn-sm">Connect with Pastor</a>
+          <a href="/sermons" class="btn btn-outline btn-sm">Watch His Sermons</a>
         </div>
       </div>
     </div>

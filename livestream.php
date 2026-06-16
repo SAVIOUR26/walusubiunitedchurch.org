@@ -9,7 +9,7 @@ require_once 'includes/header.php';
     <h1>Watch Us Live</h1>
     <p>Join our services online from anywhere in the world</p>
     <div class="breadcrumb">
-      <a href="index.php">Home</a> <span>/</span> <span>Live Stream</span>
+      <a href="/">Home</a> <span>/</span> <span>Live Stream</span>
     </div>
   </div>
 </div>

@@ -2,10 +2,10 @@
 define('SITE_NAME', 'Walusubi United Church of Jesus Christ');
 define('SITE_TAGLINE', 'Many Parts, One Body');
 define('SITE_EMAIL', 'info@walusubiunitedchurch.online');
-define('SITE_PHONE', '+256 700 000000');
-define('SITE_PHONE2', '+256 750 000000');
+define('SITE_PHONE', '+256 782 134374');
+define('SITE_PHONE2', '+256 744 521840');
 define('SITE_ADDRESS', 'Walusubi, Mukono District, Uganda');
-define('WHATSAPP_NUMBER', '256700000000');
+define('WHATSAPP_NUMBER', '256744521840');  // +256 744 521840 is the WhatsApp line
 define('SENIOR_PASTOR', 'Bogere Geofrey');
 define('SITE_URL', 'https://walusubiunitedchurch.online');
 define('FACEBOOK_URL', 'https://facebook.com/walusubiunitedchurch');
